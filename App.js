@@ -10,7 +10,7 @@ import Question from './src/components/Question';
 const App = () => {
   return (
     <View style={{backgroundColor:'#fff',height:'100%'}}>
-     <Navbar/>
+     
      <Fillup/>
      
     </View>

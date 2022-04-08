@@ -6,10 +6,13 @@ import Question from './Question';
 import Drag3 from './Drag3';
 import Drag4 from './Drag4';
 import Drag5 from './Drag5';
+import Navbar from './Navbar';
 
 const Fillup = () => {
   return (
+    
     <View style={styles.maincontainer}>
+    <Navbar/>
       <View style={styles.container1}>
       <Text style={styles.fill}>Fill in the blanks</Text>
       <View style={styles.container2}>
@@ -37,7 +40,7 @@ export default Fillup;
 const styles = StyleSheet.create({
     maincontainer:{
         height:'100%',
-        backgroundColor:'#156e80'
+        backgroundColor:'#e4e4e4'
     },
     container1:{
         display:'flex',
@@ -47,7 +50,7 @@ const styles = StyleSheet.create({
         padding:15
     },
     fill:{
-        color:"#ffffff",
+        color:"#000000",
         fontSize:15
     },
     container2:{
@@ -62,7 +65,7 @@ const styles = StyleSheet.create({
 
     },
     timertext:{
-      color:"#ffffff",
+      color:"#000000",
       fontSize:15,
       paddingHorizontal:5
     },

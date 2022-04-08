@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
       justifyContent:'space-between',
       alignItems:'center',
       height:60,
-      backgroundColor:'#ffd901',
+      
       paddingHorizontal:10
     },
    btncontainer:{

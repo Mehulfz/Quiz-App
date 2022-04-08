@@ -25,12 +25,12 @@ const styles = StyleSheet.create({
     line:{
         height:1,
         width:100,
-        backgroundColor:'#ffffff',
+        backgroundColor:'#000000',
         marginTop:12
         
     },
     q1:{
-        color:'#ffffff',
+        color:'#000000',
         fontSize:17
     },
     container1:{
